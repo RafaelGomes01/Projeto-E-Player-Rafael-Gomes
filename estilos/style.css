@@ -1,23 +1,24 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+/* Variaveis de ambiente */ /*Indentidade Visual*/
 :root{
     --font: 'Roboto', sans-serif;
     --red: #c20000;
 }
 
+/* Limpeza do ambiente e definições basicas*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-}
-
-body{
     font-size: 16px;
     font-family: var(--font);
 }
 
+/* Menu Superior - Header */
 .header{
     width: 100%;
     height: 5em;
@@ -104,3 +105,5 @@ body{
     background-color: #EEEEEE;
     border-radius: 10px;
 }
+
+/* Banner Principal - Main */
