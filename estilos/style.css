@@ -1,7 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root{
+    --font: 'Roboto', sans-serif;
+    --red: #c20000;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--font);
+}
+
+.header{
+    width: 100%;
+    height: 5em;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.menu-left-header{
+    width: 33%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-header{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-header img{
+    width: 70%;
+    max-width: 500px;
+}
+
+.menu-right-header{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-left-header a, .menu-right-header a{
+    color: #EEEEEE;
+    font-size: 1.3em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    transition: 0.2s;
+}
+
+.menu-left-header a:hover, .menu-right-header a:hover{
+    background-color: var(--red);
+}
+
+.search{
+    width: 151px;
+    height: 25px;
+    background-color: #EEEEEE;
+    border-radius: 10.5px;
+    float: right;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search-bnt{
+    margin-right: 10px;
+}
+
+.search a{
+    padding: 0px;
+}
+
+.search a:hover{
+    background-color: #EEEEEE;
+    border-radius: 10px;
 }
