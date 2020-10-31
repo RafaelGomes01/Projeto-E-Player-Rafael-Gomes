@@ -5,6 +5,7 @@
 :root{
     --font: 'Roboto', sans-serif;
     --red: #c20000;
+    --background: #062F4F;
 }
 
 /* Limpeza do ambiente e definições basicas*/
@@ -107,3 +108,135 @@
 }
 
 /* Banner Principal - Main */
+.banner{
+    width: 100%;
+    height: 28.12em;
+    background-color: var(--background);
+    position: relative;
+}
+
+.flex-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.content-banner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-banner{
+    width: 50%;
+    height: 235px;
+    text-align: center;
+    z-index: 10;
+}
+
+.text-banner h1{
+    color: #ffffff;
+    font-size: 72px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.text-banner h2{
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.text-banner a{
+    color: black;
+    background-color: #FFCC13;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.image-banner{
+    width: 50%;
+    height: 28.12em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.image-banner img{
+    width: 88%;
+}
+
+.img-car-banner{
+    position: absolute;
+    top: 248px;
+    z-index: 0;
+}
+
+/* Partidas Anteriores - Section */
+
+.last{
+    width: 100%;
+    height: 8.5em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-last{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-last h2{
+    color: #B8B8B8;
+    font-size: 18px;
+}
+
+.team-last{
+    width: 186px;
+    height: 98px;
+    border: 1px solid white;
+    background-color: #1D2731;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-team{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-team p{
+    color: #cdcdcd;
+    font-size: 18px;
+}
+
+.work-team span{
+    color: #CFCBCB;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.name-team{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-team p{
+    color: #B8B8B8;
+}
