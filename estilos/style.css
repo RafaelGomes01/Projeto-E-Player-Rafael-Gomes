@@ -208,35 +208,118 @@
     border: 1px solid white;
     background-color: #1D2731;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-team{
+    width: 98%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team-image{
+    width: 33.3%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.work-team{
-    width: 90%;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
-.work-team p{
-    color: #cdcdcd;
-    font-size: 18px;
-}
-
-.work-team span{
-    color: #CFCBCB;
-    font-size: 18px;
-    opacity: 50%;
-}
-
-.name-team{
+.team-image img{
     width: 90%;
+}
+
+.team-image p{
+    color: #cdcdcd;
+    font-size: 16px;
+}
+
+.placar-team{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.placar-team p{
+    color: #CDCDCD;
+}
+
+.placar-team span{
+    color: #CFCBCB;
+    opacity: 50%;
+    padding: 0 5px;
+}
+
+/* About - Section */
+
+.about{
+    width: 100%;
+    height: 31.62em;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.about-back{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-back0{
+    position: relative;
+    top: 185px;
+    z-index: 0;
+}
+
+.about-back1{
+    position: relative;
+    z-index: 0;
+}
+
+.content-about{
+    width: 80%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.name-team p{
-    color: #B8B8B8;
+.image-about{
+    width: 50%;
+    z-index: 1;
+}
+
+.text-about{
+    width: 50%;
+    z-index: 1;
+}
+
+.text-about h2{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.text-about p{
+    color: white;
+    font-size: 24px;
+    width: 615px;
+}
+
+/* Partidas Ao vivo - Section */
+
+.teste{
+    display: inline;
+    position: static;
+    width: 100%;
+    height: 100px;
+    background-color: red;
 }
