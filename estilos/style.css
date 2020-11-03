@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
     font-size: 16px;
     font-family: var(--font);
 }
@@ -197,6 +196,10 @@
     align-items: center;
 }
 
+.text-last{
+    width: 13%;
+}
+
 .text-last h2{
     color: #B8B8B8;
     font-size: 18px;
@@ -260,27 +263,27 @@
     width: 100%;
     height: 31.62em;
     background-color: var(--background);
+}
+
+.gambi-about{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-}
-
-.about-back{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 }
 
 .about-back0{
-    position: relative;
-    top: 185px;
-    z-index: 0;
+    position: absolute;
+    top: 869px;
 }
 
 .about-back1{
-    position: relative;
-    z-index: 0;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 650px;
 }
 
 .content-about{
@@ -316,10 +319,358 @@
 
 /* Partidas Ao vivo - Section */
 
-.teste{
-    display: inline;
-    position: static;
-    width: 100%;
-    height: 100px;
-    background-color: red;
+.team-live{
+    width: 186px;
+    height: 98px;
+    border: 1px solid white;
+    background-color: #1D2731;
+    position: relative;
 }
+
+.ao-vivo{
+    border: 1px solid white;
+    text-align: center;
+    padding: 0 9px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 86px;
+    left: 50px;
+}   
+
+.team-live-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+/* News - Section */
+.news{
+    width: 100%;
+    height: 40.5em;
+    background-color: var(--background);
+    position: relative;
+}
+
+.gambi-news{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-news{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.article-news{
+    width: 638px;
+    height: 17.06em;
+    border: 1px solid black;
+    background-color: #1D2731;
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.image-news{
+    width: 46.5%;
+}
+
+.image-news img{
+    width: 92%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.image-news-2{
+    margin-right: 25px;
+    border-right: 1px solid black;
+}
+
+.image-news-2 img{
+    width: 100.1%;
+    height: 99.9%;
+}
+
+.text-news{
+    width: 50%;
+    color: #B8B8B8;
+}
+
+.text-news p:nth-child(1){
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.text-news p:nth-child(2){
+    font-size: 18px;
+    padding: 13px 0;
+    color: #CDCDCD;
+}
+
+.text-news p:nth-child(3){
+    width: 314px;
+    font-size: 14px;
+}
+
+.data-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.data-name ul{
+    list-style-type: square;
+}
+
+.data-name p{
+    font-size: 14px;
+}
+
+.data-name li{
+    font-size: 14px;
+
+}
+
+.no-margin{
+    margin-bottom: 0px;
+}
+
+.next-matches{
+    width: 265px;
+    height: 35.87em;
+    border: 1px solid black;
+    background-color: #1D2731;
+}
+
+.title-matches{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 61px;
+    color: #B8B8B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-matches{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.matches-matches{
+    width: 90%;
+    height: 67px;
+    margin: 18px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.matches-matches img{
+    width: 23%;
+}
+
+.dia-hora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dia-hora p{
+    font-size: 12px;
+    color: #B8B8B8;
+}
+
+.dia-hora p:nth-child(2){
+    padding: 5px 0;
+}
+
+.news-back{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45px;
+    left: 700px;
+}
+
+/* Footer - Footer */
+.footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.content-footer{
+    width: 100%;
+    height: 100%;
+    margin: 10px 10%;
+}
+
+.superior-footer{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-uteis-footer{
+    width: 30%;
+}
+
+.links-uteis-footer ul{
+    list-style-type: none;
+}
+
+.links-uteis-footer h4{
+    color: white;
+    text-decoration: underline;
+}
+
+.links-uteis-footer a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.links-uteis-footer a:hover{
+    text-decoration: underline;
+}
+
+.mapa-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa-site-footer h4{
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.mapa-site-footer ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.mapa-site-footer a{
+    color: white;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.mapa-site-footer a:hover{
+    text-decoration: underline;
+}
+
+.social-medias-footer{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-medias-footer h4{
+    color: white;
+    padding: 7px;
+    text-decoration: underline;
+}
+
+.redes-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-redes img{
+    transition: 0.2s;
+}
+
+.links-redes img:hover{
+    transform: scale(1.2);
+}
+
+.line-footer{
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+    margin: 25px 0;
+}
+
+.inferior-footer{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 30%;
+}
+
+.logo-footer img{
+    width: 100%;
+    max-width: 250px;
+    transition: 0.2s;
+}
+
+.logo-footer img:hover{
+    transform: scale(1.1);
+}
+
+.direitos-footer{
+    color: white;
+}
+
+.direitos-footer span:hover{
+    color: var(--red);
+}
+
+.buttons-footer{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons-footer ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.buttons-footer a{
+    color: white;
+    padding: 10px;
+}
+
+.buttons-footer a:hover{
+    text-decoration: underline;
+}
+
